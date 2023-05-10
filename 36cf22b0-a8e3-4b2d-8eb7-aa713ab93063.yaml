@@ -20,7 +20,6 @@
   sequence:
     commands:
     - script: sh /home/rundeck/jobs/T_ARRET/run_ODS_VIX_BDD_T_ARRET_rundeck/run_ODS_VIX_BDD_T_ARRET_rundeck_run.sh
-    - script: sh /home/rundeck/jobs/T_ARRET/run_ODS_VIX_BDD_T_ARRET_rundeck/run_ODS_VIX_BDD_T_ARRET_rundeck_run.sh
     keepgoing: false
     strategy: node-first
   uuid: 36cf22b0-a8e3-4b2d-8eb7-aa713ab93063
