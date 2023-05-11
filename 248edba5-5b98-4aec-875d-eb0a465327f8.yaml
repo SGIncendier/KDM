@@ -1,0 +1,26 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: true
+  id: 248edba5-5b98-4aec-875d-eb0a465327f8
+  loglevel: INFO
+  name: run_VIX_BDD_T_SESSION
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  schedule:
+    month: '*'
+    time:
+      hour: '07'
+      minute: '25'
+      seconds: '0'
+    weekday:
+      day: '*'
+    year: '*'
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - script: sh /home/rundeck/jobs/T_SESSION/run_ODS_VIX_BDD_T_SESSION_rundeck/run_ODS_VIX_BDD_T_SESSION_rundeck_run.sh
+    keepgoing: false
+    strategy: node-first
+  uuid: 248edba5-5b98-4aec-875d-eb0a465327f8
+
