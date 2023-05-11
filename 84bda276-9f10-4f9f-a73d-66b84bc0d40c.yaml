@@ -20,6 +20,7 @@
   sequence:
     commands:
     - script: sh /home/rundeck/jobs/T_TRANSACTION/run_ODS_VIX_BDD_T_TRANSACTION_rundeck/run_ODS_VIX_BDD_T_TRANSACTION_rundeck_run.sh
+    - script: sh /home/rundeck/jobs/T_TRANSACTION/run_ODS_VIX_BDD_T_TRANSACTION_rundeck/run_ODS_VIX_BDD_T_TRANSACTION_rundeck_run.sh
     keepgoing: false
     strategy: node-first
   uuid: 84bda276-9f10-4f9f-a73d-66b84bc0d40c
